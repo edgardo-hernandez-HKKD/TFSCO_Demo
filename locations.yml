@@ -1,0 +1,9 @@
+defaultStorageMapping: null
+fileVersion: 1
+locations:
+  - SRC_BAC
+  - SRC_LPD
+  - TGT_BAC
+  - TGT_LPD
+  - V_COMMERCIAL
+  - V_CONSUMER
