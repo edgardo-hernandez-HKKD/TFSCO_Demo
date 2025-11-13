@@ -1,0 +1,286 @@
+fileVersion: 1
+id: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+name: VW_APPLICANT_PROFILE
+operation:
+  config:
+    insertStrategy: UNION
+    selectDistinct: false
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: true
+  locationName: V_CONSUMER
+  materializationType: view
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e3015fac-4310-4420-86b9-c3fe414245e5
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: APPLICANT_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5399a1f2-1c58-4c3c-9387-75fd3a0470e6
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 35905db8-0cf9-414e-b0e7-f74a01cb3ed2
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: FIRST_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f9292f27-6a41-4ab1-b327-3be2e8b0ac40
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2561a019-6a97-4088-9c13-6892efdcb87f
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: MIDDLE_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 4ce4f401-3698-4e4c-9def-45a166e29164
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 677075b6-b4c4-4e6c-8204-600097ba729b
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: LAST_NAME
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0815f937-d427-4a0d-995c-753a83931b35
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 0c057b41-f557-4254-bdc5-f2ff65509d76
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: EMAIL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 02ee1b9f-d8e9-4835-a6c2-8ac94dedb238
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1902a2a6-ffb9-494a-bae9-0f71c2df9792
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: PHONE_MOBILE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 8fe38845-a31a-4ea4-bbe6-605242a21bc3
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f10ea890-9545-4ba2-9749-fad6c8f9e469
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: CITY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 75dab05e-06ba-497f-961a-88e84a7301b6
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fddc78ba-07da-4f8f-8f6f-1fc5bf49e62c
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: STATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ea1b989b-f6eb-4984-b199-c0a2ef0531d4
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: b5c1a539-7aaa-4aef-bf04-537ebb617be7
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: EMPLOYMENT_STATUS
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: eca5d3f1-43be-40b4-a959-c6bdd5a4ee98
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 82d2c996-e91e-4718-be45-23f17a30ad5a
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: INCOME_ANNUAL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c870ca6f-6921-4d49-9fee-92642c4aa9c2
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: dfaabc1e-f079-47c3-9d0c-36ccc6cdbc45
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: FICO_SCORE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a01e3cba-e127-4617-b97c-a0bb36280293
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3d77ff0e-953c-43f3-af01-9c4f8ed5c659
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: SYSTEM_VERSION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 81b1ffb9-0050-414e-b49d-2618fabf972b
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8deb59c9-0236-4350-9c91-4495b0ad058d
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: VARCHAR
+        description: ""
+        name: SYSTEM_CURRENT_FLAG
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c5d735b2-22ad-44af-9791-c3120a04b2d0
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fbc7c6c9-6b81-4673-8204-3785eba8c452
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: SYSTEM_START_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ef06cc07-d20b-438c-aaaa-02c042becfb1
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e4e4ca92-b12c-492c-a92b-e13504bc10ba
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: SYSTEM_END_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 3c465347-1078-4b41-9a32-37692b9e64c5
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: d0bd4e9e-6996-46bf-b771-4a9e6947a6d8
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 19e002f3-ff59-4854-bc23-2d0af8565f92
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ad7f6d52-9511-49b4-88d8-45eb07e193fb
+          stepCounter: eb49428b-ae2a-475f-bd31-a6a34f054ec7
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: f38fc219-339b-452c-884a-db7ace86ce97
+                stepCounter: de77da3d-ab11-41a7-9020-7e851a0b4d38
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          DIM_APPLICANTS: de77da3d-ab11-41a7-9020-7e851a0b4d38
+          DIM_PAYMENTS: 46585cdd-cb9d-4ebb-b33f-faa918953d28
+          FCT_APPLICATIONS: 6c575eb0-ab61-42c5-9773-778f6b951d84
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: TGT_BAC
+            nodeName: DIM_PAYMENTS
+          - locationName: TGT_LPD
+            nodeName: DIM_APPLICANTS
+          - locationName: TGT_LPD
+            nodeName: FCT_APPLICATIONS
+        join:
+          joinCondition: |+
+            FROM {{ ref('TGT_LPD', 'DIM_APPLICANTS') }} "DIM_APPLICANTS"
+            LEFT JOIN {{ ref('TGT_LPD', 'FCT_APPLICATIONS') }}  ON "DIM_APPLICANTS"."APPLICANT_ID"   = "FCT_APPLICATIONS"."APPLICANT_ID"
+            LEFT JOIN {{ ref('TGT_BAC', 'DIM_PAYMENTS') }}  ON "FCT_APPLICATIONS"."APPLICATION_ID" = "DIM_PAYMENTS"."APPLICATION_ID"
+
+
+        name: VW_APPLICANT_PROFILE
+        noLinkRefs: []
+  name: VW_APPLICANT_PROFILE
+  overrideSQL: false
+  schema: ""
+  sqlType: View
+  type: sql
+  version: 1
+type: Node

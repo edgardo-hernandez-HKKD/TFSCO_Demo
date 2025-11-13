@@ -1,0 +1,361 @@
+fileVersion: 1
+id: 69328a8f-642b-402c-9d61-e0b1be1cec42
+name: DIM_VEHICLE
+operation:
+  config:
+    postSQL: ""
+    preSQL: ""
+    testsEnabled: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TGT_LPD
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: c1db8001-3f7c-47db-96eb-9adf94306de3
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        isSurrogateKey: true
+        name: VEHICLE_KEY
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: bcea7a8e-1da8-418c-87f2-78465c3a05e1
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        isBusinessKey: true
+        name: APPLICATION_ID
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d6178605-6732-4b63-8f3b-b3a674691985
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4fa91a9e-ee31-4f66-85a7-c2e580e4a082
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: VEHICLE_VIN
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a3bc19d8-dfc6-45f3-96eb-a5317e6de932
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 620f658f-f5e9-466d-9a01-3ee5849209ab
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: VEHICLE_YEAR
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: fd84ce62-2f96-4baf-984f-d01b17dc1f1d
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 1dd0076d-68c5-42c9-9592-c81cc172b8ef
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: VEHICLE_MAKE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 38dab8cc-683e-432f-83f8-829e77e9a1e4
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 36f84a76-3dd9-44bf-bee7-432177723c54
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: VEHICLE_MODEL
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 263ee3dd-c549-427e-85e0-363ab07bf36f
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: ef0ee5cc-ceac-4263-9a5c-6494dbf1763f
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: VEHICLE_TRIM
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 7df2503a-6e9d-4fc7-89c9-f870dd240323
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: fc43d48c-e657-4f46-a763-ad032aff7cf5
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: VEHICLE_CONDITION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 1f1f2f8b-a90c-49bd-8284-580f461f2ad1
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 6e4c7355-01da-48e5-aa01-8b05676870d6
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: VEHICLE_ODOMETER
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: b1943778-73f6-47a7-8533-75147f612f1e
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f9aa200c-a0b6-422d-9b77-3e651184933d
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isChangeTracking: true
+        keyColumnType: None
+        name: ENTRY_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CURRENT_TIMESTAMP()
+        systemColumnType: None
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 793cab9f-d02c-43eb-acc0-a966e45a20b9
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: MSRP
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e79fb313-d29b-4483-bbda-b707e4fc8c16
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4c377ddf-72d0-4987-9927-0bed9c6fbef6
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: VEHICLE_PRICE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: aecb78f3-df6b-4678-a52e-4f61c88c7d40
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 70b7551f-c5fc-4410-a8b2-f9434b8b7024
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: TRADE_IN_VALUE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: ee58f51a-f940-48c9-a974-130c246a5709
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 287b1bab-2bdd-4c46-b49b-a297a88caf3e
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        description: ""
+        name: CASH_REBATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 77cac7ed-357e-417f-9f8f-ba9aa63021e9
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: db84bb6b-5c2e-4114-b5ea-7029feaa957f
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR(16777216)
+        description: ""
+        name: PRODUCT_TYPE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 34cdf5c3-43bf-45da-8f68-b6c1b6246ce1
+                stepCounter: 73992e50-da51-4a94-bdfb-08847e940250
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 4bfb80b8-4e16-443a-8a24-254381a74453
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: NUMBER
+        defaultValue: ""
+        description: ""
+        isSystemVersion: true
+        name: SYSTEM_VERSION
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d41ddf7d-cac2-477a-96c0-e5b793e09caa
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: VARCHAR
+        defaultValue: ""
+        description: ""
+        isSystemCurrentFlag: true
+        name: SYSTEM_CURRENT_FLAG
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bc05939c-b2df-4aa6-9cd9-cfb0c29cdc54
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemStartDate: true
+        name: SYSTEM_START_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: fe9e6804-a44f-4276-8593-60bd8e78227b
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemEndDate: true
+        name: SYSTEM_END_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3be8cb57-6e30-424e-9c0e-b67d8d28f44c
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemCreateDate: true
+        name: SYSTEM_CREATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 17c6ac27-5e1e-44d5-bf89-94f79b9ed21b
+          stepCounter: 69328a8f-642b-402c-9d61-e0b1be1cec42
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: ""
+        description: ""
+        isSystemUpdateDate: true
+        name: SYSTEM_UPDATE_DATE
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          STG_APPLICATIONS: 73992e50-da51-4a94-bdfb-08847e940250
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: TGT_LPD
+            nodeName: STG_APPLICATIONS
+        join:
+          joinCondition: FROM {{ ref('TGT_LPD', 'STG_APPLICATIONS') }} "STG_APPLICATIONS"
+        name: DIM_VEHICLE
+        noLinkRefs: []
+  name: DIM_VEHICLE
+  overrideSQL: false
+  schema: ""
+  sqlType: Dimension
+  type: sql
+  version: 1
+type: Node
