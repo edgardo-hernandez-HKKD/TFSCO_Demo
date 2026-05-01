@@ -1,5 +1,23 @@
 fileVersion: 1
 id: "28"
-mappingDefinitions: {}
+mappingDefinitions:
+  SRC_BAC:
+    database: EHERNANDEZ_2
+    schema: SRC_BAC
+  SRC_LPD:
+    database: EHERNANDEZ_2
+    schema: SRC_LPD
+  TGT_BAC:
+    database: EHERNANDEZ_2
+    schema: TGT_BAC
+  TGT_LPD:
+    database: EHERNANDEZ_2
+    schema: TGT_LPD
+  V_COMMERCIAL:
+    database: EHERNANDEZ_2
+    schema: V_COMMERCIAL
+  V_CONSUMER:
+    database: EHERNANDEZ_2
+    schema: V_CONSUMER
 name: New Environment
 type: Environment
