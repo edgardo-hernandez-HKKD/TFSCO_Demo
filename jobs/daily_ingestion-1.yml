@@ -1,0 +1,6 @@
+excludeSelector: ""
+fileVersion: 1
+id: "1"
+includeSelector: "{ location: \"TGT_LPD\" name: \"DIM_APPLICANTS\" } OR { location: \"TGT_LPD\" name: \"STG_APPLICANTS\" } OR { location: \"TGT_LPD\" name: \"STG_APPLICATIONS\" } OR { location: \"TGT_LPD\" name: \"STG_FACT_APPLICATIONS\" } OR { location: \"TGT_BAC\" name: \"STG_PAYMENTS\" } OR { location: \"TGT_LPD\" name: \"FCT_APPLICATIONS\" } OR { location: \"TGT_LPD\" name: \"DIM_DEALER\" } OR { location: \"TGT_BAC\" name: \"DIM_PAYMENTS\" } OR { location: \"TGT_LPD\" name: \"DIM_VEHICLE\" } OR { location: \"SRC_LPD\" name: \"APPLICANTS\" } OR { location: \"SRC_LPD\" name: \"APPLICATIONS\" } OR { location: \"SRC_BAC\" name: \"PAYMENTS\" } OR { location: \"V_COMMERCIAL\" name: \"VW_APPLICATIONS_OVERVIEW\" } OR { location: \"V_CONSUMER\" name: \"VW_PAYMENTS_OVERVIEW\" }"
+name: daily_ingestion
+type: Job
